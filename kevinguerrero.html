@@ -11,7 +11,23 @@
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <title>milkos2.0</title>
 
+
+    <!-- iconos del footer -->
     <script src="https://kit.fontawesome.com/47c0617de2.js" crossorigin="anonymous"></script>
+
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Edu+TAS+Principiante & display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap" rel="stylesheet">
 
 
     <style>
@@ -19,7 +35,7 @@
             margin: 0px;
         }
 
-   
+
 
         header {
             background-color: rgb(0, 0, 0);
@@ -32,11 +48,10 @@
 
         }
 
-        #principal span
-        {
-           padding-right: 2%;
+        #principal span {
+            padding-right: 2%;
             flex-grow: 0;
-     
+
         }
 
 
@@ -61,6 +76,7 @@
             margin-top: 2.4em;
         }
 
+
         section#home {
             min-height: 100vh;
             background-image: url("https://img.freepik.com/vector-premium/fondo-vintage-dibujado-mano-comida-rapida_124507-1321.jpg");
@@ -73,25 +89,48 @@
         }
 
         section div#autor {
-            color: rgb(255, 1, 1);
+            color: rgb(41, 13, 13);
             position: absolute;
+            font-family: Agbalumo;
+            font-size: 90px;
             /* left: 600px ; */
             /* bottom: 400px ; */
 
 
         }
 
+        #autor h1 {
+            text-align: center;
+        }
+
+
         section div#mensajeria {
             position: fixed;
             right: 10px;
-            top: 750px;
-            margin: 10px;
+            top: 795px;
+            margin: 0px;
 
-                       
+
         }
 
-        #nosotros h2{
+
+        #nosotros h2 {
             text-align: center;
+            font-family: 'Edu TAS Beginner', cursive;
+            font: size 40px;
+
+        }
+
+        #nosotros p {
+            color: black;
+            font-family: 'Dancing Script', cursive;
+            font-size: 17px;
+        }
+
+        #nosotros span {
+            font-family: 'Poltawski Nowy', serif;
+            color: black;
+            font-size: 10px;
         }
 
         #imagenes {
@@ -101,11 +140,41 @@
             align-items: center;
         }
 
-        
-        #nuestros-productos h2 {
-            text-align: center;
+        #cocina {
+            border: color black;
+            border-width: 1px;
+            border-style: solid;
+
+            border-top-width: 5px;
+            border-bottom-width: 7px;
+            border-left-width: 5px;
+            border-right-width: 5px;
+        }
+
+        #fabrica {
+            border: color black;
+            border-width: 1px;
+            border-style: solid;
+
+            border-top-width: 5px;
+            border-bottom-width: 7px;
+            border-left-width: 5px;
+            border-right-width: 5px;
 
         }
+
+        #nuestros-productos h2 {
+            text-align: center;
+            font-family: 'Edu TAS Beginner', cursive;
+            font: size 40px;
+        }
+
+        #nuestros-productos p {
+            color: black;
+            font-family: 'Dancing Script', cursive;
+            font-size: 17px;
+        }
+
 
         #productos .container {
             display: flex;
@@ -113,25 +182,44 @@
             justify-content: space-around;
             align-items: center;
             border: 2px solid black;
-      
+
         }
 
-        footer{
-     
-            background-color: rgb(168, 161, 161);
-            position:absolute
-            
-            
-        }
-
-     
-        #condiciones
-        {
-            text-align:justify;
-        }
-
-        #año {
+        #productos .container {
+            font-family: 'Poltawski Nowy', serif;
+            color: black;
+            font-size: 10px;
             text-align: center;
+        }
+
+
+        footer {
+            margin: 0px;
+            background-color: rgb(161, 161, 161);
+            padding: 10px;
+            position: absolute;
+            width: calc(100% - 20px)
+        }
+
+        .iconos {
+            position: absolute;
+            right: 20px;
+            bottom: 15px;
+        }
+
+        footer div#año {
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            position: absolute;
+            bottom: 10px;
+            left: 600px;
+
+        }
+
+        footer div#terminos-y-condiciones {
+            position: relative;
+            bottom: 11px;
+            left: 10px;
         }
     </style>
 
@@ -152,7 +240,7 @@
             </a>
 
         </div>
-       
+
 
         <nav>
             <ul>
@@ -202,10 +290,8 @@
             <div id="mensajeria">
 
 
-                <a 
-
-                        href="https://walink.co/58007a" target="_blank"> <img
-                        src="./imagenes/imegenes principales/WhatsApp.png" width="80px" height= "80px">
+                <a href="https://walink.co/58007a" target="_blank"> <img
+                        src="./imagenes/imegenes principales/WhatsApp.png" width="80px" height="80px">
 
                 </a>
 
@@ -219,36 +305,78 @@
             <div>
                 <div>
                     <h2>Nosotros</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa voluptas voluptatibus ipsum
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam possimus ipsam
+                        illum tempora placeat rerum nisi reiciendis distinctio libero, incidunt repellendus doloremque
+                        est, laborum optio consequuntur eveniet. Minima, consequuntur.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa voluptas voluptatibus ipsum
                         quam
                         placeat, vel nisi dicta fugiat quasi nam sed, voluptate assumenda. Iure, consequuntur. Aliquid
                         illum
                         id a!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, nesciunt quia suscipit
+                        repudiandae natus commodi tempora nisi praesentium consectetur, perferendis, vitae officiis
+                        nobis pariatur molestiae? Dicta adipisci non soluta quis!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi officia tenetur odio
+                        voluptates! Aperiam natus asperiores, sed vel, ducimus veritatis repudiandae itaque ea porro eos
+                        fugit recusandae, tenetur neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum mollitia nobis laboriosam
+                        sit, quis magni nam dolores. Quisquam a ullam modi autem voluptate excepturi consectetur fuga
+                        voluptatem eligendi? Reprehenderit?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam possimus ipsam
+                        illum tempora placeat rerum nisi reiciendis distinctio libero, incidunt repellendus doloremque
+                        est, laborum optio consequuntur eveniet. Minima, consequuntur.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa voluptas voluptatibus ipsum
+                        quam
+                       
                     </p>
                 </div>
 
                 <section id="imagenes">
 
-                    <div id="cocina">
-                        <img src="./imagenes/pagina principal/cocina.jpg" width="600px" height="600px" alt="imagen-1">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas nostrum dicta repudiandae
+                    <div>
+
+                        <div id="cocina">
+                            <img src="./imagenes/pagina principal/cocina.jpg" width="600px" height="600px"
+                                alt="imagen-1">
+                        </div>
+
+                        <span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas nostrum dicta
+                            repudiandae
                             accu
-                        </p>
+                        </span>
                     </div>
-    
-                    <div id="fabrica">
-                        <img src="./imagenes/pagina principal/fabrica.png" width="600px" height="600px" alt="imagen-2">
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, id vero. Suscipit ea
-                            necessitatibus
-                        </p>
+
+                    <div>
+
+                        <div id="fabrica">
+
+                            <img src="./imagenes/pagina principal/fabrica.png" width="600px" height="600px"
+                                alt="imagen-2">
+
+                        </div>
+
+                        <div>
+                            <span>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, id vero. Suscipit
+                                ea
+                                necessitatibus
+                            </span>
+
+                        </div>
+
+
                     </div>
-    
+
+
+
+
+
 
                 </section>
 
-              
+
             </div>
 
         </section>
@@ -261,13 +389,36 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sint recusandae reprehenderit suscipit
                     quidem neque possimus totam veniam pariatur magni deserunt eligendi, cum impedit libero deleniti ad
                     ullam voluptatem obcaecati.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam possimus ipsam
+                        illum tempora placeat rerum nisi reiciendis distinctio libero, incidunt repellendus doloremque
+                        est, laborum optio consequuntur eveniet. Minima, consequuntur.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa voluptas voluptatibus ipsum
+                        quam
+                        placeat, vel nisi dicta fugiat quasi nam sed, voluptate assumenda. Iure, consequuntur. Aliquid
+                        illum
+                        id a!
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, nesciunt quia suscipit
+                        repudiandae natus commodi tempora nisi praesentium consectetur, perferendis, vitae officiis
+                        nobis pariatur molestiae? Dicta adipisci non soluta quis!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi officia tenetur odio
+                        voluptates! Aperiam natus asperiores, sed vel, ducimus veritatis repudiandae itaque ea porro eos
+                        fugit recusandae, tenetur neque?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsum mollitia nobis laboriosam
+                        sit, quis magni nam dolores. Quisquam a ullam modi autem voluptate excepturi consectetur fuga
+                        voluptatem eligendi? Reprehenderit?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium quisquam possimus ipsam
+                        illum tempora placeat rerum nisi reiciendis distinctio libero, incidunt repellendus doloremque
+                        est, laborum optio consequuntur eveniet. Minima, consequuntur.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ipsa voluptas voluptatibus ipsum
+                        quam
                 </p>
             </div>
 
             <div class="container">
 
                 <div class="card">
-                    <img src="./imagenes/imegenes principales/carne molida.jpg" width="400px" height="300px" alt="imagen-1">
+                    <img src="./imagenes/imegenes principales/carne molida.jpg" width="400px" height="300px"
+                        alt="imagen-1">
                     <p>
                         Carne molida 100% seleccionada de los mejores cortes de carne vacuno
                     </p>
@@ -275,7 +426,8 @@
                 </div>
 
                 <div class="card">
-                    <img src="./imagenes/imegenes principales/lechugas-002.jpg" width="400px" height="300px" alt="imagen-2">
+                    <img src="./imagenes/imegenes principales/lechugas-002.jpg" width="400px" height="300px"
+                        alt="imagen-2">
                     <p>
                         descripcion del producto en cuestion
                     </p>
@@ -324,6 +476,10 @@
     </main>
 
     <footer>
+
+
+
+
         <div class="iconos">
 
             <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2xl"
@@ -348,14 +504,25 @@
 
         </div>
 
-       
 
-        <div id="terminos y condiciones">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere facilis fugit in veniam necessitatibus
-                cum quibusdam perspiciatis non labore? Aliquam, asperiores perspiciatis consectetur dolore eveniet
-                labore rem unde veritatis vero.
+
+        <div id="terminos-y-condiciones">
+            <p>
+                <small>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere delectus est unde ab repudiandae
+                    similique quia enim, quos architecto eaque commodi ipsum vel eligendi obcaecati laborum nobis
+                    recusandae totam. Debitis.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere facilis fugit in veniam
+                    necessitatibus
+                    cum quibusdam perspiciatis non labore? Aliquam, asperiores perspiciatis consectetur dolore eveniet
+                    labore rem unde veritatis vero.
+
+
+                </small>
             </p>
         </div>
+
+
 
 
     </footer>
